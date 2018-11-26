@@ -1,9 +1,19 @@
-### Compile:              truffle compile
-### Migrate:              truffle migrate
-### Test contracts:       truffle test
-### Test dapp:            cd client && npm test
-### Run dev server:       cd client && npm run start
-### Build for production: cd client && npm run build
+# Basic Command of Truffle
+#### Compile:              truffle compile
+#### Migrate:              truffle migrate
+#### Test contracts:       truffle test
+#### Test dapp:            cd client && npm test
+#### Run dev server:       cd client && npm run start
+#### Build for production: cd client && npm run build
+
+# how to run
+1. metamask account reset (confer trouble shooting)
+1. ganache-cli -m "mnemonics you saved before"
+2. /app root/truffle compile
+3. /app root/truffle migrate
+4. cd client
+5. npm install
+6. npm run start
 
 # Trouble Shooting
 1. MetaMask - RPC Error: Internal JSON-RPC error. {code: -32603, message: "Internal JSON-RPC error."}
