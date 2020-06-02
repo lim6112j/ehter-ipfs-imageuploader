@@ -1,5 +1,5 @@
 const SimpleStorage = artifacts.require("./SimpleStorage.sol");
-
+const assert = require('assert');
 contract("SimpleStorage", accounts => {
   it("...should store the value 89.", async () => {
     const simpleStorageInstance = await SimpleStorage.deployed();
